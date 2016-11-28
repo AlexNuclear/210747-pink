@@ -5,8 +5,112 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+    <header class="page-header">
+    	<b class="page-header__logo">PINK</b>
+    	<nav class="main-nav  main-nav--closed">
+    		<button class="main-nav__burger"></button> 	
+    		  <div class="main-nav__wrapper">
+    		  	<ul class="main-nav__list">
+    		  		<li class="main-nav__item main-nav__item--active"> <a href="">ГЛАВНАЯ</a></li>
+    		  		<li class="main-nav__item"><a href="">ФОТОГРАФИИ</a></li>
+    		  		<li class="main-nav__item"><a href="">КОНКУРС</a></li>
+    		  		<li class="main-nav__item"><a href="">HTML ACADEMY</a></li>
+    		  	</ul>
+    		  </div>
+    	</nav>
+    </header>
+    <section class="download">
+    	<div src="" alt="" class="download__wrapper">
+    	  <img src="" alt="" class="download__banner">
+        <!-- Вопрос:Кнопка является блоком и элементом блока скачать.Как должен называться элемент?-->
+    	  <button class="download  button">СКАЧАТЬ</button>
+    	  <div class="download__logos">
+    	  	<img src="" alt="" class="download__logo">
+    	  	<img src="" alt="" class="download__logo">
+    	  	<img src="" alt="" class="download__logo">
+    	  </div>
+    	  <span class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</span>
+    	</div>
+    </section>
+    <section class="features">
+    	<header class="features__header">
+    		<h2 class="features__slogan"></h2>
+    	</header>
+    	<div class="features-item">
+    		<h3 clas="features-item__header">Поднимает настроение</h3>
+    		<p clas="features-item__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+    	</div>
+      <div class="features-item">
+        <h3 clas="features-item__header">Меняет мир вокруг</h3>
+        <p clas="features-item__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+      </div>
+      <div class="features-item">
+        <h3 clas="features-item__header">Заводит новых друзей</h3>
+        <p clas="features-item__text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+      </div>
+      <img src="" alt="" class="features__image">
+    </section>
+    <!--Вопрос: slider используется и в блоке коментов и в блоке тарифов,соответственно блоки перестают быть независимыми.Допустимо ли это?-->
+    <section class="comments">
+      <div class="comments__wrapper slider"></div>
+        <input class="slider__input" type="radio" name="" id="comments-input-1" checked>
+        <input class="slider__input" type="radio" name="" id="comments-input-2">
+        <input class="slider__input" type="radio" name="" id="comments-input-3">
+        <ul class="comments__list">
+          <li class="comments__item--active slider__item">
+            <b class="comments__ author-name"></b>
+            <p class="comments__ author-text"></p>    
+          </li>
+          <li class="comments__item slider__item">
+            <b class="comments__ author-name"></b>
+            <p class="comments__ author-text"></p>
+          </li>
+          <li class="comments__item slider__item">
+            <b class="comments__ author-name"></b>
+            <p class="comments__ author-text"></p>
+          </li>
+        </ul>
+        <div class="comments__toggles slider__toggles">
+          <label class="slider__toggle" for="comments-input-1">1</label>
+          <label class="slider__toggle" for="comments-input-2">2</label>
+          <label class="slider__toggle" for="comments-input-3">3</label>
+          </div>
+      </div>
+    </section>
+    <section class="tariffs slider">
+      <div class="tariffs__wrapper">
+        <input class="slider__input" type="radio" name="" id="tariffs-input-1" checked>
+        <input class="slider__input" type="radio" name="" id="tariffs-input-2">
+        <input class="slider__input" type="radio" name="" id="tariffs-input-3">
+        <ul class="tariffs__list">
+          <li class="tariffs__item--active slider__item">
+            <b class="tariffs__tariff">СТАНДАРТ</b>
+            <span class="tariffs__price">3,99 USD</span>
+            <div class="tariffs__option">РОЗОВЫЙ ФИЛЬТР</div>
+            <div class="tariffs__option">СМАЙЛИКИ</div>
+            <div class="tariffs__option">КОММЕНТАРИИ</div>
+          </li>
+          <li class="tariffs__item slider__item">
+          </li>
+          <li class="tariffs__item slider__item">
+          </li>
+        </ul>
+        <div class="tariffs__toggles slider__toggles">
+          <label class="slider__toggle" for="tariffs-input-1">1</label>
+          <label class="slider__toggle" for="tariffs-input-2">2</label>
+          <label class="slider__toggle" for="tariffs-input-3">3</label>
+          </div>
+      </div>
+    </section>
+    <!--Куда засунуть ссылки телефона,е-мейла и адреса-->
+    <section class="contact-us">
+      <span class="contact-us__heading">Остались вопросы?Свяжитесь с нами</span>
+      <span class="contact-us__phone">Звоните</span>
+      <span class="contact-us__e-mail">Пишите</span>
+      <span class="contact-us__adress">Приезжайте в гости</span>
+    </section>
+    <section class="map">
+      <iframe></iframe>
+    </section>
   </body>
 </html>
