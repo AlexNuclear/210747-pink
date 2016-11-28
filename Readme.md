@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Постников](https://up.htmlacademy.ru/adaptive/9/user/210747).
-* Наставник: Антон Попов!
+* Наставник: [Антон Попов!](https://htmlacademy.ru/profile/joker)
 
 ---
 
