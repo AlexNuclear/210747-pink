@@ -6,85 +6,87 @@
   </head>
   <body>
     <header class="page-header">
-    	<b class="page-header__logo">PINK</b>
-    	<nav class="main-nav  main-nav--closed">
-    		<button class="main-nav__burger"></button> 	
-    		  <div class="main-nav__wrapper">
-    		  	<ul class="main-nav__list">
-    		  		<li class="main-nav__item main-nav__item--active"> <a href="">ГЛАВНАЯ</a></li>
-    		  		<li class="main-nav__item"><a href="">ФОТОГРАФИИ</a></li>
-    		  		<li class="main-nav__item"><a href="">КОНКУРС</a></li>
-    		  		<li class="main-nav__item"><a href="">HTML ACADEMY</a></li>
-    		  	</ul>
-    		  </div>
-    	</nav>
+      <a href="" class="page-header__logo">PINK</a>
+      <nav class="main-nav  main-nav--closed">
+        <button class="main-nav__burger"></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item main-nav__item--active"> <a href="">ГЛАВНАЯ</a></li>
+            <li class="main-nav__item"><a href="">ФОТОГРАФИИ</a></li>
+            <li class="main-nav__item"><a href="">КОНКУРС</a></li>
+            <li class="main-nav__item"><a href="">HTML ACADEMY</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
+
     <section class="download">
-    	<div src="" alt="" class="download__wrapper">
-    	  <img src="" alt="" class="download__banner">
-        <!-- Вопрос:Кнопка является блоком и элементом блока скачать.Как должен называться элемент?-->
-    	  <button class="download  button">СКАЧАТЬ</button>
-    	  <div class="download__logos">
-    	  	<img src="" alt="" class="download__logo">
-    	  	<img src="" alt="" class="download__logo">
-    	  	<img src="" alt="" class="download__logo">
-    	  </div>
-    	  <span class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</span>
-    	</div>
-    </section>
-    <section class="features">
-    	<header class="features__header">
-    		<h2 class="features__slogan"></h2>
-    	</header>
-    	<div class="features-item">
-    		<h3 clas="features-item__header">Поднимает настроение</h3>
-    		<p clas="features-item__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-    	</div>
-      <div class="features-item">
-        <h3 clas="features-item__header">Меняет мир вокруг</h3>
-        <p clas="features-item__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+      <div class="download__wrapper">
+    	  <a class="download__button  button">СКАЧАТЬ</a>
+        <div class="download__logos">
+          <a href="" alt="" class="download__logo"></a>
+          <a href="" alt="" class="download__logo"></a>
+          <a href="" alt="" class="download__logo"></a>
+        </div>
+        <p class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </div>
-      <div class="features-item">
-        <h3 clas="features-item__header">Заводит новых друзей</h3>
-        <p clas="features-item__text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+    </section>
+
+    <section class="features">
+      <header class="features__header">
+        <h2 class="features__slogan">Устали от серости мегаполиса?</h2>
+        <h2 class="features__slogan">Нам есть, что вам предложить!</h2>
+      </header>
+      <div class="features__item">
+        <h3 clas="features__item-header">Поднимает настроение</h3>
+        <p clas="features__item-text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+      </div>
+      <div class="features__item">
+        <h3 clas="features__item-header">Меняет мир вокруг</h3>
+        <p clas="features__item-text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+      </div>
+      <div class="features__item">
+        <h3 clas="features__item-header">Заводит новых друзей</h3>
+        <p clas="features__item-text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
       </div>
       <img src="" alt="" class="features__image">
     </section>
-    <!--Вопрос: slider используется и в блоке коментов и в блоке тарифов,соответственно блоки перестают быть независимыми.Допустимо ли это?-->
+
     <section class="comments">
-      <div class="comments__wrapper slider"></div>
+      <div class="comments__wrapper ">
         <input class="slider__input" type="radio" name="" id="comments-input-1" checked>
         <input class="slider__input" type="radio" name="" id="comments-input-2">
         <input class="slider__input" type="radio" name="" id="comments-input-3">
         <ul class="comments__list">
-          <li class="comments__item--active slider__item">
-            <b class="comments__ author-name"></b>
-            <p class="comments__ author-text"></p>    
+          <li class="comments__item--active">
+            <b class="comments__author-name"></b>
+            <p class="comments__author-text"></p>
           </li>
-          <li class="comments__item slider__item">
-            <b class="comments__ author-name"></b>
-            <p class="comments__ author-text"></p>
+          <li class="comments__item">
+            <b class="comments__author-name"></b>
+            <p class="comments__author-text"></p>
           </li>
-          <li class="comments__item slider__item">
-            <b class="comments__ author-name"></b>
-            <p class="comments__ author-text"></p>
+          <li class="comments__item">
+            <b class="comments__author-name"></b>
+            <p class="comments__author-text"></p>
           </li>
         </ul>
-        <div class="comments__toggles slider__toggles">
-          <label class="slider__toggle" for="comments-input-1">1</label>
-          <label class="slider__toggle" for="comments-input-2">2</label>
-          <label class="slider__toggle" for="comments-input-3">3</label>
-          </div>
+        <div class="comments__toggles">
+          <label class="comments__toggle" for="comments-input-1">1</label>
+          <label class="comments__toggle" for="comments-input-2">2</label>
+          <label class="comments__toggle" for="comments-input-3">3</label>
+        </div>
       </div>
     </section>
-    <section class="tariffs slider">
+
+    <section class="tariffs">
       <div class="tariffs__wrapper">
-        <input class="slider__input" type="radio" name="" id="tariffs-input-1" checked>
-        <input class="slider__input" type="radio" name="" id="tariffs-input-2">
-        <input class="slider__input" type="radio" name="" id="tariffs-input-3">
+        <input class="tariffs__input" type="radio" name="" id="tariffs-input-1" checked>
+        <input class="tariffs__input" type="radio" name="" id="tariffs-input-2">
+        <input class="tariffs__input" type="radio" name="" id="tariffs-input-3">
         <ul class="tariffs__list">
           <li class="tariffs__item--active slider__item">
-            <b class="tariffs__tariff">СТАНДАРТ</b>
+            <b class="tariffs__tariff--hit">СТАНДАРТ</b>
             <span class="tariffs__price">3,99 USD</span>
             <div class="tariffs__option">РОЗОВЫЙ ФИЛЬТР</div>
             <div class="tariffs__option">СМАЙЛИКИ</div>
@@ -102,13 +104,17 @@
           </div>
       </div>
     </section>
-    <!--Куда засунуть ссылки телефона,е-мейла и адреса-->
+
     <section class="contact-us">
-      <span class="contact-us__heading">Остались вопросы?Свяжитесь с нами</span>
-      <span class="contact-us__phone">Звоните</span>
-      <span class="contact-us__e-mail">Пишите</span>
-      <span class="contact-us__adress">Приезжайте в гости</span>
+      <h3 class="contact-us__heading">Остались вопросы?Свяжитесь с нами</h3>
+      <h4 class="contact-us__phone">Звоните</span>
+      <p>+7(812)555-66-66</p>
+      <h4 class="contact-us__e-mail">Пишите</h4>
+      <p>mail@htmlacademy.ru</p>
+      <h4 class="contact-us__adress">Приезжайте в гости</h4>
+      <p>ул. Большая Конюшенная, 19/8</p>
     </section>
+
     <section class="map">
       <iframe></iframe>
     </section>

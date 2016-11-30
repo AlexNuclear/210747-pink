@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+  <header class="page-header">
+    <a href="" class="page-header__logo">PINK</a>
+    <nav class="main-nav  main-nav--closed">
+      <button class="main-nav__burger"></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--active"> <a href="">ГЛАВНАЯ</a></li>
+          <li class="main-nav__item"><a href="">ФОТОГРАФИИ</a></li>
+          <li class="main-nav__item"><a href="">КОНКУРС</a></li>
+          <li class="main-nav__item"><a href="">HTML ACADEMY</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h2 class="page-header__heading">Конкурс на самое безбашеное путешествие с Пинк</h2>
+  </header>
+  <!--Вопрос:Можно ли обернуть в форму все чекбоксы и радиобатонны одной формой или нужно каждый блок оборачивать формой?-->
+  <section class="user-data">
+    <p class="user-data__slogan">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
+    <input type="text" name="" id="user-surname" class="user-data__entry-field" placeholder="Укажите фамилию *">
+    <input type="text" name="" id="user-name" class="user-data__entry-field" placeholder="Укажите имя *">
+    <input type="text" name="user-patronymic" id="" class="user-data__entry-field" placeholder="Ну и отчество тоже">
+    <label for="user-surname" class="user-data__entry-label">ФАМИЛИЯ:</label>
+    <label for="user-name" class="user-data__entry-label">ИМЯ:</label>
+    <label for="user-patronymic" class="user-data__entry-label">ОТЧЕСТВО:</label>
+  </section>
+  <section class="achivements">
+    <h3 class="achivements__heading">Ваши безбашенные
+достижения в путешествии</h3>
+    <ul class="achivements__list">
+      <li class="achivements__radio--active"><input type="text" id="inp1">
+      </li>
+      <li class="achivements__radio--active"><input type="text" id="inp2">
+      </li>
+      <li class="achivements__radio"><input type="text" id="inp3">
+      </li>
+      <li class="achivements__radio"><input type="text" id="inp4">
+      </li>
+      <li class="achivements__radio--active"><input type="text" id="inp5">
+      </li>
+      <li class="achivements__radio"><input type="text" id="inp6">
+      </li>
+    </ul>
+  </section>
+  <section class="user-contacts">
+    <input type="text" name="" id="input-nubmer" class="user-contacts__number">
+    <label for="input-nubmer">НОМЕР ТЕЛЕФОНА</label>
+    <input type="text" name="" id="input-email" class="user-contacts__number">
+    <label for="input-email">АДРЕСОК ПОЧТЫ</label>
+  </section>
+  <section class="application">
+    <h4 class="application__heading"></h4>
+    <input type="radio" class="application__radio" id="radio_1">
+    <input type="radio" class="application__radio" id="radio_2">
+    <input type="radio" class="application__radio" id="radio_3">
+  </section>
+  <section class="submit">
+    <span class="submit__text"></span>
+    <textarea class="submit__textarea" placeholder="Можно прям в красках,не стесняясь в выражениях" rows="5"></textarea>
+    <button class="submit__button">Отправить форму</button>
+    <span>*-ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</span>
+  </section>
+
+  <footer class="main-footer">
+    <img src="" alt="" class="main-footer__logo"><p class="main-footer__logo-text"></p>
+    <a href="" class="main-footer__social-buttons"></a>
+    <a href="" class="main-footer__social-buttons"></a>
+    <a href="" class="main-footer__social-buttons"></a>
+    <a href="" class="main-footer__htmlacademy"></a>
+  </footer>
+</body>
+</html>
