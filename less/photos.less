@@ -1,0 +1,69 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+}
+
+.photos__text {
+  .wrapper();
+  width: 240px;
+}
+
+.photos__item--panorama img {
+  width: 100%;
+}
+
+.photos__item--panorama {
+  width: 100%;
+}
+
+h2.photos__item-heading {
+    .wrapper();
+}
+
+p.photos__item-text {
+    .wrapper();
+}
+
+a.photos__item-like {
+    .wrapper();
+    display: block;
+}
+
+.photos__wrapper {
+  .wrapper();
+}
+
+@media @tablet-widths {
+  .photos__wrapper {
+  .wrapper();
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+
+  .photos__user-photo {
+    width: 200px;
+    height: 200px;
+ }
+
+  .photos__item {
+    width: 300px;
+    min-height: 450px;
+ }
+ .photos__item--panorama img {
+  width: 100%;
+  min-height: 512px;
+}
+
+.photos__item--panorama {
+  width: 100%;
+ }
+}
+
+@media @desktop-widths {}
+
