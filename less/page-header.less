@@ -1,4 +1,79 @@
-page-header {
+.page-header {
   min-height: 68px;
   .wrapper();
+    background-image: url(../img/bg-back-mobile@1x.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.main-nav__banner {
+
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+}
+.main-nav__list .main-nav__item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-height: 260px;
+}
+
+.page-header__logo {
+  min-height: 70px;
+  background-color: #283645;
+}
+
+.main-nav__item {
+  min-height: 65px;
+}
+
+@media @tablet-widths {
+  .main-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-height: 260px;
+ }
+
+ .page-header__logo {
+  min-height: 110px;
+ }
+}
+
+@media @desktop-widths {
+
+  .main-nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-height: 110px;
+    background-color: #181f28;
+
+ }
+
+  .page-header {
+    background-size: 1200px;
+    margin-bottom: 100px;
+  }
+
+  .page-header__logo {
+    width: 150px;
+    float: left;
+    background-color: #181f28;
+  }
+
+  .main-nav__item {
+    float: right;
+  }
+
+  .main-nav__burger {
+    display: none;
+  }
 }

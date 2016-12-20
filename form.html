@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Пинк</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="page-header">
@@ -11,57 +12,59 @@
       <button class="main-nav__burger"></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
-          <li class="main-nav__item main-nav__item--active"> <a href="">главная</a></li>
-          <li class="main-nav__item"><a href="">фотографии</a></li>
-          <li class="main-nav__item"><a href="">конкурс</a></li>
+          <li class="main-nav__item main-nav__item--active"> <a href="index.html">главная</a></li>
+          <li class="main-nav__item"><a href="photo.html">фотографии</a></li>
+          <li class="main-nav__item"><a href="form.html">конкурс</a></li>
           <li class="main-nav__item"><a href="">html academy</a></li>
         </ul>
       </div>
     </nav>
     <h2 class="page-header__heading">Конкурс на самое безбашеное путешествие с Пинк</h2>
   </header>
-  <form action="">
+  <form action="" class="form">
+    <p class="form__slogan">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
     <section class="user-data">
-      <p class="user-data__slogan">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
-      <label for="user-surname" class="user-data__entry-label">ФАМИЛИЯ:</label>
-      <input type="text" name="" id="user-surname" class="user-data__entry-field" placeholder="Укажите фамилию *">
-      <label for="user-name" class="user-data__entry-label">ИМЯ:</label>
-      <input type="text" name="" id="user-name" class="user-data__entry-field" placeholder="Укажите имя *">
-      <label for="user-patronymic" class="user-data__entry-label">ОТЧЕСТВО:</label>
-      <input type="text" name="user-patronymic" id="" class="user-data__entry-field" placeholder="Ну и отчество тоже">
+      <div class="user-data__wrapper">
+        <label for="user-surname" class="user-data__entry-label">ФАМИЛИЯ:</label>
+        <input type="text" name="" id="user-surname" class="user-data__entry-field" placeholder="Укажите фамилию *">
+        <label for="user-name" class="user-data__entry-label">ИМЯ:</label>
+        <input type="text" name="" id="user-name" class="user-data__entry-field" placeholder="Укажите имя *">
+        <label for="user-patronymic" class="user-data__entry-label">ОТЧЕСТВО:</label>
+        <input type="text" name="user-patronymic" id="" class="user-data__entry-field" placeholder="Ну и отчество тоже">
+      </div>
     </section>
     <section class="achivements">
       <h3 class="achivements__heading">Ваши безбашенные
       достижения в путешествии</h3>
       <ul class="achivements__list">
-        <li class="achivements__radio"><input type="text" id="inp1" checked>
+        <li class="achivements__radio"><input type="checkbox" id="inp1" checked><label for="inp1">Сделал селфи с акулой</label>
         </li>
-        <li class="achivements__radio"><input type="text" id="inp2" checked>
+        <li class="achivements__radio"><input type="checkbox" id="inp2" checked><label for="inp2">Обгорел на пляже</label>
         </li>
-        <li class="achivements__radio"><input type="text" id="inp3">
+        <li class="achivements__radio"><input type="checkbox" id="inp3"><label for="inp3">Видел Чака Норриса</label>
         </li>
-        <li class="achivements__radio"><input type="text" id="inp4">
+        <li class="achivements__radio"><input type="checkbox" id="inp4"><label for="inp4">Накупил сувениров</label>
         </li>
-        <li class="achivements__radio"><input type="text" id="inp5" checked>
+        <li class="achivements__radio"><input type="checkbox" id="inp5" checked><label for="inp5">Удержал башню</label>
         </li>
-        <li class="achivements__radio"><input type="text" id="inp6">
+        <li class="achivements__radio"><input type="checkbox" id="inp6"><label for="inp6">Разгромил отель</label>
         </li>
       </ul>
     </section>
     <section class="user-contacts">
-      <label for="input-nubmer">НОМЕР ТЕЛЕФОНА</label>
       <input type="text" id="input-nubmer" class="user-contacts__number">
-      <label for="input-email">АДРЕСОК ПОЧТЫ</label>
+      <label for="input-nubmer">НОМЕР ТЕЛЕФОНА</label>
       <input type="text" id="input-email" class="user-contacts__number">
+      <label for="input-email">АДРЕСОК ПОЧТЫ</label>
     </section>
     <section class="application">
-      <h4 class="application__heading"></h4>
+      <h4 class="application__heading">с каким приложением путешествовали?</h4>
       <input type="radio" class="application__radio" id="radio_1" name="radio">
       <input type="radio" class="application__radio" id="radio_2" name="radio">
       <input type="radio" class="application__radio" id="radio_3" name="radio">
     </section>
     <section class="submit">
-      <span class="submit__text"></span>
+      <h4 class="submit__text">опишите свои эмоции</h4>
       <textarea class="submit__textarea" placeholder="Можно прям в красках,не стесняясь в выражениях" rows="5"></textarea>
       <button class="submit__button">Отправить форму</button>
       <span>*-ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</span>
@@ -69,7 +72,7 @@
   </form>
   <footer class="main-footer">
     <a href=""><img src="" alt="" class="main-footer__logo"></a>
-    <div class="social"></div>
+    <div class="social">
       <a href="" class="social__button social__button--tw">twitter</a>
       <a href="" class="social__button social__button--f">facebook</a>
       <a href="" class="social__button social__button--ytb">youtube</a>

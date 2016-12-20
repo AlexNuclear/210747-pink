@@ -1,1 +1,36 @@
-features
+.features {
+  .wrapper();
+  min-height: 1000px;
+}
+
+.features__header {
+  min-height: 250px;
+}
+
+@media @tablet-widths {
+  .features {
+  .clearfix();
+  min-height: 725px;
+  }
+
+  .features__item {
+    float: right;
+    width: 350px;
+  }
+
+  .features__header {
+  min-height: 290px;
+ }
+}
+
+@media @desktop-widths {
+  .features {
+  .clearfix();
+  min-height: 880px;
+  }
+  .features__item {
+    float: left;
+    width: 190px;
+    margin-right: 90px;
+ }
+}

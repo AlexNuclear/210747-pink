@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction:column;
+  .wrapper();
+}
+.form__slogan {
+  .wrapper();
+  width: 100%;
+  order: 1;
+}
+
+@media @tablet-widths {
+  .form__slogan {
+    min-height: 250px;
+  }
+
+}
+@media @desktop-widths {
+  .form {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    padding: 0 103px;
+
+  }
+}
